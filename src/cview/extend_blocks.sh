@@ -3,7 +3,7 @@
 cut -f1,4,5 | sort -k2,2n | grep -v -w "NA" | grep -v '^$' | \
 awk -v OFS="\t" '
 {
-    start = $2 - 100;
+    start = $2 - 10000;
     if (start < 1) {
         start = 1;
     }

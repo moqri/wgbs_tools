@@ -1,5 +1,4 @@
 #!/usr/bin/python3 -u
-
 import argparse
 import os.path as op
 import sys
@@ -21,7 +20,7 @@ def homog_log(*args, **kwargs):
 #                                                    #
 #    wrap the c++ tool                               #
 #                                                    #
-######################################################
+# #####################################################
 
 
 def trim_uxm_to_uint8(data, nr_bits):

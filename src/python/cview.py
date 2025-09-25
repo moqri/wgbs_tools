@@ -110,7 +110,7 @@ def cview(pat, args):
 #                        #
 #         Main           #
 #                        #
-##########################
+# #########################
 
 def add_view_flags(parser, sub_sample=True, out_path=True, bed_file=True, long_reads=True):
     add_GR_args(parser, bed_file=bed_file)

@@ -23,7 +23,7 @@ from cview import cview, subprocess_wrap_sigpipe, add_view_flags
 #                  #
 #  Loading beta    #
 #                  #
-####################
+# ###################
 
 def view_other_bin(bin_path, args):
     # view bin files. Minimal support. Works very slow for whole genome.
@@ -72,7 +72,7 @@ def view_beta(beta_path, gr, opath, bed_path):
 #                        #
 #         Main           #
 #                        #
-##########################
+# #########################
 
 
 def parse_args():
